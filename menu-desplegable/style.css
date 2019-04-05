@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-image: url(img/background-1.jpg);
+    background-repeat: no-repeat;
+    opacity: .9;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #ffe4c4;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu {
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid #B33C86; 
+    border-bottom: 2px solid #B33C86; 
+    background-color: #EBD6D2;
+    margin: 50px 0 0 0;
+}
+
+.main-menu-list {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-option {
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
+    width: 95px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.main-option:hover {
+    font-weight: 700;
+    cursor: pointer;
+    color: #B33C86;
+}
+
+.submenu {
+    padding: 0 0 0 20px;
+    position: relative;
+    background-color: #E4C8C3;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    border-top: 4px solid #B33C86; 
+    width: 175px;
+    height: 275px;
+    visibility: hidden;
+}
+
+.submenu-list {
+    padding: 0;
+    margin: 0 0 0 -15px;
+}
+
+.main-option:hover .submenu {
+    visibility: visible;
+}
+
+.secondary-option {
+    list-style: none;
+    margin: 0;
+    width: 175px;
+    font-weight: 400;
+}
+
+.secondary-option:hover {
+    color: #3C896D;
+    font-weight: 700;
+}
+
+img {
+    width: 80%;
+
+}
+
+.img-container:hover {
+    opacity: .7;
+}
+
+.img-container {
+    height: 220px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.submenu-img {
+    width: 230px;
+    height: 260px;
+    margin: 15px 0 0 0;
+    padding: 15px 0 0 0;
+    position: absolute;
+    left: 165px;
+    top: -19px;
+    background-color: #E4C8C3;
+    border-top: 4px solid #B33C86; 
+    visibility: hidden;
+    
+}
+
+.sub-submenu {
+    list-style: none;
+    position: absolute;
+    top: -4px;
+    left: 390px;
+    width: 125px;
+    height: 279px;
+    padding: 0;
+    margin: 0;
+    border-top: 8px solid #B33C86; 
+    background-color: #DEBAB4;
+    box-sizing: border-box;
+    visibility: hidden;
+}
+
+
+.secondary-option:hover .sub-submenu {
+    visibility: visible;
+}
+
+.secondary-option:hover .submenu-img {
+    visibility: visible;
+}
+
+.tertiary-option {
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.tertiary-option:hover {
+    font-weight: 700;
+}
+
+.tertiary-option:hover .img-container {
+    opacity: .7;
+}
+
+.option-center {
+    transform: translate(-65px, -50px);
+}
